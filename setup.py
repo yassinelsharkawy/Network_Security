@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from setuptools import setup, find_packages
+setup(name='networksecurity', version='2.0.0', description='Unified Network Security & Penetration Testing CLI Suite', author='Network Security Team', packages=find_packages(), py_modules=['networksecurity'], scripts=['networksecurity'], entry_points={'console_scripts': ['networksecurity = networksecurity:main']}, install_requires=['scapy>=2.5.0', 'requests>=2.28.0', 'beautifulsoup4>=4.11.0', 'colorama>=0.4.6'], extras_require={'full': ['pynput>=1.7.6', 'netfilterqueue>=1.1.0']}, python_requires='>=3.8', classifiers=['Programming Language :: Python :: 3', 'Topic :: Security', 'Operating System :: POSIX :: Linux'])
